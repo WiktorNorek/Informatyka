@@ -4,7 +4,7 @@
 
 ## Opis
 
-##Projekt 1 - Pierwsze
+### Projekt 1 - Pierwsze
 Program, który ma wypisać podaną ilość liczb pierwszych w rosnącej kolejności.
 
 ## Spis treści
