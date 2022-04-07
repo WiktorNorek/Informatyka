@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+
+</head>
+<body>
+	<form>
+		Imie<input type="text" id="i" required, minlength="3"> <br/>
+		Nazwisko<input type="text" id="n" required, minlength="3"> <br/>
+		Wiek<input type="number" id="w" required, min="10"> <br/>
+		Rasa<input type="text" id="r" required> <br />
+		Wzrost<input type="number" id="wz" required, min="100"> <br/>
+		Waga<input type="number" id="wg" required, min="30"> <br/>
+		<input type="submit" onclick="funkcja()" value="submit">
+
+	</form>
+
+
+<script>
+    function funkcja()
+	{
+		Waga = document.getElementById("wg").value;
+		Wzrost = document.getElementById("wz").value;
+
+		Imie = document.getElementById("i").value;
+		Nazwisko = document.getElementById("n").value;
+		Wiek = document.getElementById("w").value;
+        Rasa = document.getElementById("r").value;
+			alert("Nazywam się " + Imie + " "+ Nazwisko + " mam " + Wiek + " lat. Jestem " + Rasa);
+		}
+</script>
+</body>
+</html>
