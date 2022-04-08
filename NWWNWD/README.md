@@ -9,4 +9,4 @@ Celem pierwszej częsci algorytmu jest uzyskanie największego wspólnego dzieln
 
 
 ### Linki do kodu:
-[Algorytm obliczania NWW oraz NWD](https://github.com/WiktorNorek/Informatyka/blob/main/pierwsze-final-2.cpp)
+[Algorytm obliczania NWW oraz NWD](https://github.com/WiktorNorek/Informatyka/blob/main/NWWNWD/NWWNWD.cpp)
