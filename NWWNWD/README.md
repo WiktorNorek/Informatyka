@@ -4,12 +4,9 @@
 
 ## Opis
 
-### Projekt - Pierwsze 
+### Projekt - Algorytm obliczania NWW oraz NWD
 
 
-## Spis treści
 
-Linki do zrealizowanych programów:
-
-1. [Alorytm 1 - Pierwsze](https://github.com/WiktorNorek/Informatyka/blob/main/pierwsze-final-2.cpp)
-2. [Alorytm 2]()
+### Linki do kodu:
+[Algorytm obliczania NWW oraz NWD](https://github.com/WiktorNorek/Informatyka/blob/main/pierwsze-final-2.cpp)
