@@ -1,11 +1,16 @@
-﻿#include <iostream>
+#include <iostream>
 #include <cstring>
+#include <chrono>
 using namespace std;
+
+chrono::duration<double> elapsed_seconds;
 
 void funk1(char tab[], int klucz2);
 
 int main()
 {
+    chrono::system_clock::time_point start = chrono::system_clock::now();
+
     char tab[1000];
     cout << "Podaj słowo: ";
     cin >> tab;
@@ -18,6 +23,14 @@ int main()
     cout << "Zaszyfrowane słowo: " << tab << endl;
     funk1(tab, -klucz);
     cout << "Odszyfrowane słowo: " << tab << endl;
+
+    chrono::system_clock::time_point end = chrono::system_clock::now();
+
+    cout << endl;
+    elapsed_seconds += end - start;
+    cout << "\nCzas: " << endl;
+    cout << std::chrono::duration_cast<std::chrono::milliseconds>(elapsed_seconds).count() << "\t milliseconds\n";
+    cout << std::chrono::duration_cast<std::chrono::seconds>(elapsed_seconds).count() << "\t seconds\n";
 }
 
 
