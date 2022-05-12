@@ -1,0 +1,3 @@
+﻿  binarne.cpp
+C:\Users\wnorko155\source\repos\binarne\binarne.cpp(57): warning C4715: "funkcja”: niewszystkie ścieżki kodu zwracają wartość
+  binarne.vcxproj -> C:\Users\wnorko155\source\repos\binarne\Debug\binarne.exe
