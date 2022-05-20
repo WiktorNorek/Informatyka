@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <chrono>
 using namespace std;
 
@@ -9,7 +9,7 @@ int funkcja(int tab[], int szukana);
 int main()
 {
 	chrono::system_clock::time_point start = chrono::system_clock::now();
-	int tab[15] = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47};
+	int tab[15] = { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47 };
 	int szukana;
 	cout << "Podaj liczbe ktora chcesz znalezc: ";
 	cin >> szukana;
@@ -30,7 +30,7 @@ int main()
 }
 
 int funkcja(int tab[], int szukana)
-	{
+{
 	int l;
 	int p;
 	int sr;
@@ -41,7 +41,7 @@ int funkcja(int tab[], int szukana)
 
 
 	while (l <= p) {
-		if (tab[sr] = szukana) {
+		if (tab[sr] == szukana) {
 			return sr;
 		}
 		if (tab[sr] > szukana) {
@@ -51,7 +51,7 @@ int funkcja(int tab[], int szukana)
 			l = sr + 1;
 		}
 		sr = (l + p) / 2;
-		return -1;
 	}
+	return -1;
 
 }
