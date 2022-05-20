@@ -5,7 +5,7 @@
 ## Opis
 
 ### Projekt - Wyszukiwanie binarne
-Celem algorytmu jest wyszukanie danej wartości z tabeli poprzez zastosowanie metody dzielenia tabeli na miniejsze segmenty. Następnie wybierana jest pozycja SR, której wartość porównuje się z wartością poszukiwanej liczby. Jeżeli liczba poszukiwana jest mniejsza, SR przesuwa się w lewo, aż do moment znalezienia liczby. Natomiast jeżeli jest większa, pozycja będzie przesuwać się w prawo po tabeli.
+Celem algorytmu jest wyszukanie danej wartości z tabeli poprzez zastosowanie metody dzielenia tabeli na pół. Następnie sprawdzane jest, czy sprawdzana jest mnijsza bądź większa względem środka tabeli. Jeżeli liczba poszukiwana jest mniejsza, sprawdzona zostanie lewa strona, aż do moment znalezienia liczby. Natomiast jeżeli jest większa, prawa strona tabeli zostanie sprawdzoa.
 
 
 ### Linki do kodu:
