@@ -1,15 +1,11 @@
 # \<Informatyka>
 
-`<Wiktor Norko> <17.03.2022>`
-
-## Opis
-
-### Projekt 1 - Pierwsze
-Program, który ma wypisać podaną ilość liczb pierwszych w rosnącej kolejności.
-
+`<Wiktor Norko>
 ## Spis treści
 
 Linki do zrealizowanych programów:
 
-1. [Alorytm 1 - Pierwsze](https://github.com/WiktorNorek/Informatyka/blob/main/pierwsze-final-2.cpp)
-2. [Alorytm 2]()
+1. [Algorytm 1 - Pierwsze](https://github.com/WiktorNorek/Informatyka/blob/main/pierwsze-final-2.cpp)
+2. [Algorytm 2 - Szyfr Cezara](https://github.com/WiktorNorek/Informatyka/tree/main/cezara/ConsoleApplication2)
+3. [Algorytm 3 - Wyszukiwanie binarne](https://github.com/WiktorNorek/Informatyka/tree/main/binarne)
+4. [Algorytm 4 - NWWNWD](https://github.com/WiktorNorek/Informatyka/tree/main/NWWNWD)
